@@ -29,9 +29,9 @@ function Footer() {
         <div className="footer-contact">
           <h3>Contact Info</h3>
           <p> Location: Lagos, Nigeria</p>
-          <p> Phone: +234 123 456 7890</p>
+          <p> Phone: +234 708 3359 248</p>
           <p>
-            Email:
+            Email:{" "}
             <a href="mailto:basseyolive.write@gmail.com">
               basseyolive.write@gmail.com
             </a>

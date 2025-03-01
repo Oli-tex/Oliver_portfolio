@@ -659,14 +659,21 @@ p {
 .how_I_got P,
 .how_I_Approach p,
 .my__lessons p {
-  text-align: left;
-  max-width: 40ch;
+  text-align: center;
+  max-width: 60ch;
   padding-inline: 2rem;
+  line-height: 1.8;
 }
 
 .how_I_Approach {
   background: #fff;
   padding-block: 3rem;
+}
+
+.my__story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .my__lessons {
@@ -699,7 +706,6 @@ p {
 .lesson__cards .card p {
   font-size: 1.4rem;
   font-weight: 300;
-  display: block;
   text-align: left;
   margin: none;
 }
@@ -759,6 +765,9 @@ p {
 
   .something__about__me .about__paragraph {
     text-align: left;
+  }
+  .my__story p {
+    max-width: 70ch;
   }
 
   .aboutme__image {
@@ -930,6 +939,10 @@ p {
     display: block;
   }
 
+  .my__story p {
+    max-width: 65%;
+  }
+
   .something__about__me .about__paragraph {
     font-size: 1.6rem;
     max-width: 70ch;
@@ -994,8 +1007,9 @@ p {
 }
 
 .project__title__container p {
-  max-width: 30ch;
+  max-width: 50ch;
   padding-inline: 1.5rem;
+  text-align: center;
 }
 
 .project-grid {
